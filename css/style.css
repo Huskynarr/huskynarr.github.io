@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Courier New', Courier, monospace;
+    background: #0a0a0a;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -28,25 +28,53 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: white;
+    background: #1a1a1a;
+    border: 2px solid #00ff00;
     margin: 0 auto 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 48px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
 }
 
 h1 {
-    color: white;
+    color: #00ff00;
     font-size: 32px;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .subtitle {
-    color: rgba(255, 255, 255, 0.9);
+    color: #00cc00;
     font-size: 16px;
+}
+
+.about-me {
+    background: #1a1a1a;
+    border: 1px solid #00ff00;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+}
+
+.about-me h2 {
+    color: #00ff00;
+    font-size: 20px;
+    margin-bottom: 12px;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    letter-spacing: 1px;
+}
+
+.about-me p {
+    color: #00cc00;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
 }
 
 .links {
@@ -56,15 +84,16 @@ h1 {
 }
 
 .link {
-    background: white;
+    background: #1a1a1a;
+    border: 1px solid #00ff00;
     padding: 18px 24px;
-    border-radius: 12px;
+    border-radius: 8px;
     text-decoration: none;
-    color: #333;
+    color: #00ff00;
     font-size: 16px;
     font-weight: 500;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
     display: flex;
     align-items: center;
     gap: 12px;
@@ -72,7 +101,9 @@ h1 {
 
 .link:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    background: #222222;
+    border-color: #00ff00;
 }
 
 .link-icon {
@@ -87,16 +118,18 @@ h1 {
     flex: 1;
 }
 
-/* Icon styles */
-.icon-website { color: #667eea; }
-.icon-github { color: #333; }
-.icon-shop { color: #10B981; }
-.icon-x { color: #000; }
-.icon-youtube { color: #FF0000; }
-.icon-twitch { color: #9146FF; }
-.icon-tiktok { color: #000; }
-.icon-instagram { color: #E4405F; }
-.icon-discord { color: #5865F2; }
+/* Icon styles - all icons use the same green color */
+.icon-website,
+.icon-github,
+.icon-shop,
+.icon-x,
+.icon-youtube,
+.icon-twitch,
+.icon-tiktok,
+.icon-instagram,
+.icon-discord {
+    color: #00ff00;
+}
 
 @media (max-width: 480px) {
     h1 {
