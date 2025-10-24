@@ -118,16 +118,18 @@ h1 {
     flex: 1;
 }
 
-/* Icon styles */
-.icon-website { color: #00ff00; }
-.icon-github { color: #00ff00; }
-.icon-shop { color: #00ff00; }
-.icon-x { color: #00ff00; }
-.icon-youtube { color: #00ff00; }
-.icon-twitch { color: #00ff00; }
-.icon-tiktok { color: #00ff00; }
-.icon-instagram { color: #00ff00; }
-.icon-discord { color: #00ff00; }
+/* Icon styles - all icons use the same green color */
+.icon-website,
+.icon-github,
+.icon-shop,
+.icon-x,
+.icon-youtube,
+.icon-twitch,
+.icon-tiktok,
+.icon-instagram,
+.icon-discord {
+    color: #00ff00;
+}
 
 @media (max-width: 480px) {
     h1 {
