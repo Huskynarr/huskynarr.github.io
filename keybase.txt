@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/huskynarr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://huskynarr.is-a.dev
+  * I am huskynarr (https://keybase.io/huskynarr) on keybase.
+  * I have a public key with fingerprint 264F 6E3A 6459 C6B6 4861  538C 4DE3 BC72 50A6 5D1C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fb94bfd998bdffe15e460a0229122d3afdd3233ab23d75f3672162c01c6623360a",
+      "fingerprint": "264f6e3a6459c6b64861538c4de3bc7250a65d1c",
+      "host": "keybase.io",
+      "key_id": "4de3bc7250a65d1c",
+      "kid": "0101acb1da93c9a29fdcce628eed2e74d4818aec3365d4de2650bf3e0479427ba2180a",
+      "uid": "9a63f575ce89f61104ba2a0ad4acc519",
+      "username": "huskynarr"
+    },
+    "service": {
+      "hostname": "huskynarr.is-a.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1762171900,
+  "expire_in": 157680000,
+  "prev": "5ba0d175f528885ca1e6e45dbd9b42e6b8b66a100bfecc18da55a2be575b6849",
+  "seqno": 43,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.17
+Comment: https://keybase.io/crypto
+
+yMNwAnicbVJ9TBxFHD0+j6Mqamj9ADUsmILCsTv7cbtXSxSrKC2ftaRtlOvs7uyx
+4bi77t1RAUEQy0VbrVApTQTaqMVSBQnFEIyRgu0BSluNGGo/iIJiIWrVK4FrwXOX
+2H+Mf03mzXtv3u/NnL49TBcdkjPzmZLf8UJ8yFdDRzw6Oeqd5SqMd4gVmLkKK0Wr
+C7KJyOW2lMoiZsZwAuASz1G8JHIcy4uShAgaUQwOcQA4AgCRhJIokoAkIQ9I0URL
+JGMCBAMEnBAYRsVVLpaKSbLdihSnItvdqi1gKIlBJGQomhMYnqFYhqBJVqBERPKC
+CdA4ZGiREFRhicOlKdRwPHQho+xQMXVjWY33P/xbuXECCjwhQo4UOAg4SRQExAAW
+IREgEyVSLMFCJKjxaFF1AQyN8xKJcMrEUcDEQ0Cwq7k9q3YcZEiJNtECYjmJIQic
+UhkQhyIFBYEmOI3oQoodliGVXeJxlVbYoaJg1amYCpfLAtKa1Ub5L8Uou9KgUUTl
+qoVTcbgdgsOmnbvdTpdZ07srnJpgD+It/1pZeNkuqnWqinKkuGSHHTMTKlNwy5o3
+YWIAYSI4HE/F0ItOWUEWWWPQJobFcQ11Kup1ZozmIS4S6ovRgGVZWoAEYhBFi7zI
+8RRADM/yDAMJXC0GCQLBipCmIeCR2gPPsJQ2tAvttjswM0WqOaFV9XTJVjt0exSE
+VQ8PPR+uC4nWRUaEav9MF22489bv612MCcLZ9TdnNhIZC7F/gtyYgwPFMaPDxvRg
+36vdr/1WwNKGwLVnHvAuPhqbF+mOAlFUXRid9uzlrbAh+7bMhqdKXllbe32ho2tN
+xqfWDUX3kfXNaW/WJLEHMi8fHssypbuye7s/mHB+e51cGqvZKa+FZ3qDbxUfbyz1
+d75d+GTeh2VDB542RuzeWGPYc7IxbnrvcP62i3fMz1xpPT9VNpgSMnh2V9y4NcTZ
+fi3710646T3ftOW75bz+ixc6GtcllrGdl07kzTk3tPo+H5yaEoa9f1VuWhxYAzw2
+7/yp0wfXO/Z/zMToK9x6a3AHeSN+pe/7ohoj9nKybTSqezpwd0LS1qXCH5pXHhxP
++DrZe1d/32bbuw5eKrXnLrx+z46F/Mzmrktf+hMkv9GfP1YVbvfB1sUL7dGzZ2oq
+04PhrCEy0xeMqzx1btexnKTEs745ZUuZfvCXlKuuxgj+i9rAyTe6fpqoj0sMIPD+
+9uRzc7L3ufHcNr019Yovyv9J6Dcti/dHzjf1HTNkZnz0xM2cSFj0+/6WpG25y6OF
+ys7alr8D2488flVHZBX7AuR5VJ0bWhcB9x5ib/Tom8LqMtr2HUoZeeyRBtvDD1GT
+x8GPm+sDofFL/f30SIq/p6AgoWnl3sP18T9PhMZOGlBB09F9A22zL3m2uLNRwx9H
+lZHuuslEqr1HfyLLu+4fgKXDPA==
+=TJjJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/huskynarr
+
+==================================================================
