@@ -14,6 +14,7 @@ This is a personal link hub page for Huskynarr, providing a centralized location
 The page includes links to the following platforms:
 - Personal Website (huskynar.de)
 - GitHub Profile
+- Keybase (PGP Key)
 - Online Shop (huskynarr.shop)
 - X (Twitter)
 - YouTube
@@ -36,8 +37,21 @@ The page includes links to the following platforms:
 ├── index.html          # Main HTML file
 ├── css/
 │   └── style.css      # Stylesheet with all CSS rules
+├── images/
+│   ├── README.md      # Instructions for logo file
+│   └── logo.svg       # Huskynarr logo (download required)
 └── README.md          # This file
 ```
+
+## 🖼️ Logo Setup
+
+The profile logo should be downloaded and placed in the `images/` directory:
+
+```bash
+curl -o images/logo.svg https://huskynarr.de/_nuxt/logo.H2Zu-rsI.svg
+```
+
+The page will use the local logo if present, otherwise it falls back to the external URL.
 
 ## 🚀 Usage
 

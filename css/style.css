@@ -36,6 +36,13 @@ body {
     justify-content: center;
     font-size: 48px;
     box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+    overflow: hidden;
+}
+
+.logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 h1 {
@@ -121,6 +128,7 @@ h1 {
 /* Icon styles - all icons use the same green color */
 .icon-website,
 .icon-github,
+.icon-keybase,
 .icon-shop,
 .icon-x,
 .icon-youtube,
