@@ -93,6 +93,8 @@ body {
     flex-shrink: 0;
     width: 116px;
     height: 116px;
+    display: block;
+    text-decoration: none;
 }
 
 /* Signature: avatar reads like a pinned photo — slightly tilted,
@@ -451,6 +453,18 @@ body {
 .footer-copyright {
     color: var(--ink-faint);
     font-size: 12.5px;
+}
+
+.footer-link {
+    color: var(--frost);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.footer-link:hover {
+    color: var(--frost-deep);
+    text-decoration: underline;
 }
 
 /* ---------- Accessibility & motion ------------------------------ */
